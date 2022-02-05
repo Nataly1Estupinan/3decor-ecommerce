@@ -3,16 +3,19 @@ import {
   Instagram,
   MailOutline,
   Phone,
-  
+  GitHub,
   Room,
- 
+  
+  Contacts,
   WhatsApp,
 } from "@material-ui/icons";
+
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
+    <>
     <div className={styles.Container}>
       <div className={styles.Left}>
         <h1 className={styles.Logo}>3DECOR.</h1>
@@ -168,6 +171,24 @@ const Footer = () => {
         </div>
       </div>
     </div>
+
+    <div className="container">
+    <footer className="d-flex flex-wrap justify-content-between align-items-center border-top">
+      <div className="col-md-4 d-flex align-items-center">
+       
+        <a href="https://github.com/Nataly1Estupinan"><span className="text-muted">&copy; Desarrollado por Nataly Estupiñan.</span></a>
+      </div>
+  
+      <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li className="ms-3"><a className="text-muted" href="https://github.com/Nataly1Estupinan">< GitHub/></a></li>
+        
+        <li className="ms-3"><a className="text-muted" href="https://nataly1estupinan.github.io/Portafolio/#">< Contacts/></a></li>
+      </ul>
+    </footer>
+  </div>
+  </>
+
+
   );
 };
 
