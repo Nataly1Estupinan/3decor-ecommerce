@@ -1,6 +1,4 @@
 import slider1 from "./Assets/slider1.jpg";
-import slider2 from "./Assets/publicidad.png";
-import slider3 from "./Assets/slider3.jpg";
 import cobogo022 from "./Assets/catalogo/cobogo022.jpg";
 import cobogo023 from "./Assets/catalogo/cobogo023.jpg";
 import cobogo024 from "./Assets/catalogo/cobogo024.jpg";
@@ -43,14 +41,14 @@ export const sliderItems = [
   },
   {
     id: 2,
-    img: slider2,
+    img: "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80",
     title: "DISEÑOS EN DIFERENTES TONOS",
     desc: "¡APRENDE A FABRICAR TUS PROPIOS MOLDES Y EMPIEZA A TRABAJAR",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: slider3,
+    img: "https://images.unsplash.com/photo-1596496356940-0a111ee799c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     title: "DISEÑOS DE EXTERIORES",
     desc: "¡INSCRÍBETE: CURSO DE FABRICACIÓN DE MOLDES Y DE PLACAS DE YESO EN 3D",
     bg: "fbf0f4",

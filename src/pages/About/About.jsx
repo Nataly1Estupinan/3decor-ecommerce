@@ -20,7 +20,7 @@ const About = () => {
             Nuestros cursos son 100% prácticos, con materiales incluídos. Duración: 1 día. Diligencia el formulario y te enviaremos el número de cuenta para que finalices tu inscripción. El cupo queda reservado con el 50% del valor y dos días antes del curso, debes enviar el otro 50% restante.
           </p>
 
-          <Link to="/form" className="btn btn-primary">
+          <Link to="/formulario" className="btn btn-primary">
             Inscríbete aquí
           </Link>
         </div>
