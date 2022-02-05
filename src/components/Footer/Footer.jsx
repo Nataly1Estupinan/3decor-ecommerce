@@ -156,14 +156,15 @@ const Footer = () => {
       <div className={styles.Right}>
         <h3 className={styles.Title}>Contacto</h3>
         <div className={styles.ContactItem}>
-          <Room style={{ marginRight: "10px" }} /> Colombia{" "}
+          <Room style={{ marginRight: "10px" }} /> Colombia
         </div>
         <div className={styles.ContactItem}>
           <Phone style={{ marginRight: "10px" }} /> +057 318 891 5780
         </div>
         <div className={styles.ContactItem}>
-          <MailOutline style={{ marginRight: "10px" }} />{" "}
-          3decor.cucuta@gmail.com
+          <MailOutline style={{ marginRight: "10px" }} />3decor.cucuta@gmail.com
+          
+          
         </div>
       </div>
     </div>
