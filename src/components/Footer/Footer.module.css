@@ -84,3 +84,9 @@
   }
 
 }
+@media (min-width: 390px) {
+  .Container{
+    width:100%;
+    flex-direction: column;
+  }
+ }

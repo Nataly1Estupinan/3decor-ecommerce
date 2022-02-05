@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const Product = ({ product, addToCart, loadCurrentItem }) => {
   return (
     <div className={styles.Container}>
-      
+      <div className={styles.Circle}></div>
       <img className={styles.Image} src={product.img} alt={product.title}/>
       
       <div className={styles.Info}>

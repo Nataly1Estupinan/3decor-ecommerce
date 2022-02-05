@@ -86,7 +86,7 @@
     width:50px;
   }
   .Logo{
-    font-size: 24px;
+    display:none;
   }
   .Right{
     flex:2;
@@ -98,3 +98,71 @@
   }
   
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  
+  .Container {
+    height: 50px;
+    width:100%;
+   
+  }
+  .Wrapper {
+    padding: 10px 0px;
+  }
+  .Language{
+    display:none;
+  }
+  .Img{
+    width:50px;
+  }
+  .Logo{
+    display:none;
+  }
+  .Right{
+    flex:2;
+    justify-content:center;
+  }
+  .MenuItem{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Container {
+    height: 50px;
+   
+  }
+  .Wrapper {
+    padding:10px 0px;
+  }
+  .Language{
+    display:none;
+  }
+  .Img{
+    width:50px;
+  }
+  .Logo{
+    font-size: 24px;
+  }
+  .Right{
+    flex:2;
+    justify-content:center;
+  }
+  .MenuItem{
+    font-size: 12px;
+    margin-left: 10px;
+  }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (orientation: landscape){}

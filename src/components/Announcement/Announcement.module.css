@@ -9,7 +9,7 @@
     font-weight: 500;
     
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 380px){
     .Container{
         visibility:hidden;
     }

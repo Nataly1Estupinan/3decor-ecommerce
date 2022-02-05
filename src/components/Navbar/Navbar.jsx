@@ -46,7 +46,10 @@ const Navbar = ({ cart }) => {
           </Link>
 
           <Link className={styles.link} to="/productos">
-            <div className={styles.MenuItem}>TIENDA</div>
+            <div className={styles.MenuItem}>PLACAS</div>
+          </Link>
+          <Link className={styles.link} to="/productos2">
+            <div className={styles.MenuItem}>MOLDES</div>
           </Link>
           <Link className={styles.link} to="/about">
             <div className={styles.MenuItem}>CURSOS</div>

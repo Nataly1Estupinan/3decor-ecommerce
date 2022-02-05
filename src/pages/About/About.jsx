@@ -15,12 +15,13 @@ const About = () => {
       <div className="card text-center">
         <div className="card-header">CURSO DE MUROS EN 3D</div>
         <div className="card-body">
-          <h5 className="card-title">$250.000 1 día</h5>
+          <h5 className="card-title">$250.000 -- 8 horas</h5>
           <p className="card-text">
             Nuestros cursos son 100% prácticos, con materiales incluídos. Duración: 1 día. Diligencia el formulario y te enviaremos el número de cuenta para que finalices tu inscripción. El cupo queda reservado con el 50% del valor y dos días antes del curso, debes enviar el otro 50% restante.
+            Este 20 de febrero 2022 en Acacias Meta, tendremos el curso de FABRICACIÓN DE MOLDES Y FABRICACIÓN DE PLACAS EN YESO EN 3D. Dos cursos por el precio de uno!
           </p>
 
-          <Link to="/formulario" className="btn btn-primary">
+          <Link to="/formulario" className="btn btn-dark">
             Inscríbete aquí
           </Link>
         </div>
@@ -40,10 +41,9 @@ const About = () => {
                 <ol>Elaboración de una plantilla</ol>
                 <ol>Encapsulamiento</ol>
                 <ol>Tiempos de mezclado</ol>
-                <ol>Clonar piezas</ol>
                 <ol>Costos y presupuesto</ol>
               </p>
-              <Link to="/productos2" className="btn btn-primary">
+              <Link to="/productos2" className="btn btn-dark">
                 Ver moldes
               </Link>
             </div>
@@ -63,14 +63,14 @@ const About = () => {
                 <ol>Tiempos de producción</ol>
                 <ol>Costos y presupuestos</ol>
               </p>
-              <Link to="/productos" className="btn btn-primary">
+              <Link to="/productos" className="btn btn-dark">
                 Ver placas
               </Link>
             </div>
           </div>
         </div>
       </div>
-
+      
       <Form />
       <Slider />
       <Categories />

@@ -47,6 +47,17 @@ overflow: hidden;
 }
 @media screen and (max-width: 380px){
   .Container{
+    display:none;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .Container{
+   display:none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Container{
     padding: 1.5rem;
   }
 }

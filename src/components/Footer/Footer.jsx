@@ -114,7 +114,7 @@ const Footer = () => {
           </li>
           <li className={styles.ListItem}>
             <Link
-              to="/productos3"
+              to="/about"
               style={{
                 textDecoration: "none",
                 color: "black",
@@ -127,7 +127,7 @@ const Footer = () => {
           </li>
           <li className={styles.ListItem}>
             <Link
-              to="/form"
+              to="/formulario"
               style={{
                 textDecoration: "none",
                 color: "black",
