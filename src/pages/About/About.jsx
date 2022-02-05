@@ -35,7 +35,7 @@ const About = () => {
             <div className="card-body">
               <h5 className="card-title">Tema 1: Moldes en caucho de silicona:</h5>
               <p className="card-text">
-                {" "}
+                
                 <ol>Clonar piezas</ol>
                 <ol>Elaboración de una plantilla</ol>
                 <ol>Encapsulamiento</ol>
