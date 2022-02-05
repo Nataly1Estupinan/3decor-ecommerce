@@ -3,9 +3,9 @@ import {
   Instagram,
   MailOutline,
   Phone,
-  Pinterest,
+  
   Room,
-  Twitter,
+ 
   WhatsApp,
 } from "@material-ui/icons";
 import styles from "./Footer.module.css";
