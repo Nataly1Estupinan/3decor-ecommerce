@@ -1,0 +1,102 @@
+.Container {
+  display: flex;
+  background-color: #fcf5f5;
+  
+}
+
+.Left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Logo {
+  display: flex;
+  
+}
+.Logo:hover{
+  color: gray;
+}
+
+.Desc{
+  margin: 20px 0px;
+}
+
+.SocialContainer{
+  display: flex;
+}
+
+.SocialIcon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: black;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  
+}
+.SocialIcon:hover{
+  color:rgb(78, 78, 78);
+  
+}
+
+.Center{
+  flex: 1;
+  padding: 20px;
+  
+}
+
+.Title{
+  margin-bottom: 30px;
+}
+
+.List{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ListItem{
+  width: 50%;
+  margin-bottom: 10px;
+  
+}
+.ListItem:hover{
+  color:gray;
+}
+
+
+.Right{
+  flex: 1;
+  padding: 20px;
+  
+}
+
+.ContactItem{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Payment {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px){
+  .Container {
+    flex-direction: column;
+  }
+  .Center{
+    display: none;
+  }
+  .Right{
+    background-color: #fff8f8;
+  }
+
+}
