@@ -36,9 +36,10 @@
 .Button:hover {
   background-color: #fcf5f5;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
+  
   .Image {
-    max-height: "10vh";
+    max-height: "20vh";
   }
   .Title {
     margin-bottom: 5px;

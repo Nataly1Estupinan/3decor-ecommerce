@@ -45,3 +45,9 @@ overflow: hidden;
   background-color: transparent;
   cursor: pointer;
 }
+@media screen and (max-width: 380px){
+  .Container{
+    padding: 1.5rem;
+  }
+}
+

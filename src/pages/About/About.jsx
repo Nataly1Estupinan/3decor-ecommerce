@@ -11,6 +11,7 @@ const About = () => {
   return (
     <>
       <Navbar />
+      <img src="https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded mx-auto d-block" alt="..."/>
       <div className="card text-center">
         <div className="card-header">CURSO DE MUROS EN 3D</div>
         <div className="card-body">
@@ -25,7 +26,7 @@ const About = () => {
         </div>
         <div className="card-footer text-muted">Trae 5 personas y podrás acceder gratis</div>
       </div>
-      <img src="https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded mx-auto d-block" alt="..."/>
+     
 
 
       <div className="row">
