@@ -38,7 +38,7 @@
 
 .Image {
   height: 75%;
-  /* max-width:min-content; */
+  
   z-index: 2;
 }
 .Icon {
@@ -53,9 +53,18 @@
   transition: all 0.5s ease;
 }
 
+
 .Icon:hover {
   background-color: #e9f5f5;
   transform: scale(1.1);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 380px) {
+  .Image{
+    max-width:min-content; 
+  }
+}
+@media screen and (max-width: 640px) {
+  .Image{
+    max-width:min-content; 
+  }
 }

@@ -16,7 +16,7 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .Container{
         max-height: 15px;
         font-size: 10px;

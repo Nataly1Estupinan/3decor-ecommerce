@@ -22,19 +22,12 @@
 }
 
 /* Medium (md) */
-@media (min-width: 390px) {
- .Container{
-   width:100%;
-   flex-direction: column;
- }
-}
-
-/* Large (lg) */
-@media (min-width: 1028px) {
-  /* ... */
-}
-
-/* Extra Large (xl) */
-@media (min-width: 1280px) {
-  /* ... */
+@media screen and (max-width: 640px) {
+  .Container {
+    padding: 0px;
+    flex-direction: column;
+  }
+  .Title {
+    font-size: 15px;
+  }
 }

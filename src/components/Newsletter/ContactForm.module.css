@@ -1,15 +1,16 @@
 .Container {
-  height: 60vh;
+  height: 75vh;
   background-color: #fcf5f5;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 .container_form {
   background-color: rgba(243, 220, 14, 0.301);
   margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 5px;
   color: black;
   text-align: center;
