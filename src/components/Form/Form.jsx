@@ -3,6 +3,7 @@ import { useForm, ValidationError } from "@formspree/react";
 
 import styles from "./Form.module.css";
 import { Link } from "react-router-dom";
+import { WhatsApp } from "@material-ui/icons";
 
 const Form = () => {
   const [state, handleSubmit] = useForm("mdobeggr");
@@ -30,6 +31,15 @@ const Form = () => {
         <h3 className="card-title text-center">
           FORMULARIO DE INSCRIPCIÓN 3DECOR
         </h3>
+        <a href="https://wa.me/573188915780?text=Hola, quiero más información sobre el curso de muros en 3D. "
+            
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+       <WhatsApp className={styles.fabIcon}/> </a>
+        <p className={styles.pW}>Más información</p>
 
         <form className={styles.form} onSubmit={handleSubmit}>
           <h6 htmlFor="email">Nombres y apellidos:</h6>
@@ -89,8 +99,12 @@ const Form = () => {
           >
             Enviar
           </button>
+          
         </form>
+        
       </div>
+      
+      
     </>
   );
 };

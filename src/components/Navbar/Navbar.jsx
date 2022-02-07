@@ -23,9 +23,8 @@ const Navbar = ({ cart }) => {
     <div className={styles.Container}>
       <div className={styles.Wrapper}>
         <div className={styles.Left}>
-          <Link className={styles.link} to="/">
-            <span className={styles.Language}>3DECOR</span>
-          </Link>
+          <span className={styles.Language}>3DECOR</span>
+
           <Link className={styles.link} to="/">
             <div className={styles.ImgContainer}>
               <img classNAme={styles.Img} src={logo} />

@@ -46,6 +46,7 @@ const Footer = () => {
           <div className={styles.SocialIcon} color="E4405F">
             <Instagram />
           </div></a>
+          
           <a href="https://wa.me/573188915780?text=Hola, estoy interesado en comprar: "
             
             style={{
